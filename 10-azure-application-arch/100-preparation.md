@@ -98,5 +98,5 @@ To make it simple, we will start by zipping the whole application:
 ```bash
 sudo apt install zip -y
 
-zip -r /tmp/app.zip .
+sudo zip -r /tmp/app.zip .
 ```
