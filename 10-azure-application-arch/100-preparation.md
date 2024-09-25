@@ -63,7 +63,7 @@ sed -i '67a\
 The application will generate several `.dll` files.
 
 ```bash
-dotnet dotnet publish --configuration Release
+dotnet publish --configuration Release
 ```
 
 ### Running locally
