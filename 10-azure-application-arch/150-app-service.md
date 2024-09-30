@@ -94,11 +94,11 @@ az role assignment create \
 
 A Key Vault reference in Azure App Configuration allows applications to securely reference secrets stored in Azure Key Vault **without exposing the actual secret** values. Instead of storing sensitive information directly within the application configuration, developers can use a **reference notation** that points to the secret's URI in Key Vault. The application must authenticate separately to both Azure App Configuration and Azure Key Vault to retrieve the referenced secrets, ensuring that sensitive data remains protected and access is controlled through Azure's role-based access control (RBAC) system.
 
-Try first getting the unique identifier of the secret `app--db`:
+Try first getting the unique identifier of the secret `app-db`:
 
 ```bash
 export SECRET_URI=$(az keyvault secret show \
-  --name app--db \
+  --name app-db \
   --vault-name $MYPREFIX-app-vault \
   --query id \
   --output tsv)
