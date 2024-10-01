@@ -74,7 +74,7 @@ Let's store the value of the connection string as a secret (double dashes are us
 ```bash
 az keyvault s█████ s██ \
   --vault-name $MYPREFIX-app-vault \
-  --name app--db \
+  --name app-db \
   --value "$CONN"
 ```
 
