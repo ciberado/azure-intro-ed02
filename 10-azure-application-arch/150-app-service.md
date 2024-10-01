@@ -220,7 +220,7 @@ Use `az webapp log tail` to start live log tracing for an Azure web application.
 az webapp log tail \
   --resource-group $MYPREFIX-rg \
   --name $MYPREFIX-app
-``
+```
 
 Now feel free to run the test battery against the remote application:
 
