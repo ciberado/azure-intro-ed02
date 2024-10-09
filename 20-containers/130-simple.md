@@ -81,7 +81,7 @@ obj
 EOF
 ```
 
-Feel free to check the content of the fail that you just created:
+Feel free to check the content of the file that you just created:
 
 ```bash
 ls -a
