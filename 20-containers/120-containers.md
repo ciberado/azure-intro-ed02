@@ -8,7 +8,7 @@ We are going to create a container based on the BusyBox image, but replacing the
 docker container r██ busybox /bin/ls /bin
 ```
 
-The operating system created the container, attached the filesystem defined by the image and executed the `sh` process that listed the files. When the process finished, the container was shut down. That is way it doesn't appear in a simple `ps`:
+The operating system created the container, attached the filesystem defined by the image and executed the `sh` process that listed the files. When the process finished, the container was shut down. That is why it doesn't appear in a simple `ps`:
 
 ```bash
 docker container ps
