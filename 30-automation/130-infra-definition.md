@@ -2,7 +2,7 @@
 
 ### Inputs and configuration flexibility
 
-As any other program, a Terraform template can received parameters. They are called *variables* and can be mandatory or optional. Let's define two of them:
+As any other program, a Terraform template can receive parameters. They are called *variables* and can be mandatory or optional. Let's define two of them:
 
 ```bash
 cat << 'EOF' > variables.tf
