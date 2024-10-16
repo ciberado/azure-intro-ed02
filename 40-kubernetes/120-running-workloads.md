@@ -95,5 +95,5 @@ root@conduit:/app# exit
 Finally, try to overload your overload your pod:
 
 ```bash
-curl -ILs -X GET <ADDRESS OF YOUR WORKSTATION>/?[1-20] | grep HTTP
+curl -ILs -X GET http://<ADDRESS OF YOUR WORKSTATION>:8000/?[1-20] | grep HTTP
 ```
