@@ -82,7 +82,7 @@ It is even possible to run interactive sessions against the containers:
 
 ```bash
 kubectl e███ -it conduit -c web -- bash
-`` 
+```
 
 In the next few commands, we are interacting with the application directly. We list the files in the application directory, send a request to the application using curl, and then exit the container.
 
@@ -97,3 +97,4 @@ Finally, try to overload your overload your pod:
 ```bash
 curl -ILs -X GET http://<ADDRESS OF YOUR WORKSTATION>:8000/?[1-20] | grep HTTP
 ```
+
