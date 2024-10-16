@@ -48,11 +48,17 @@ export ARM_SUBSCRIPTION_ID="$(az account list \
   --query "[?isDefault].id" \
   --output tsv)"
 ```
+Init terraform: 
+
+```bash
+terraform init
+```
+
 
 And `apply` your template:
 
 ```bash
-terraform apply -var myprefix=jmoreno -auto-approve
+terraform apply -var myprefix=${MYPREFIX} -auto-approve
 ```
 
 Remember deleting the whole stack once finished.
