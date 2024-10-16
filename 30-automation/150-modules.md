@@ -65,7 +65,7 @@ Remember deleting the whole stack once finished.
 
 ```bash
 terraform apply \
-  -var myprefix=jmoreno \
+  -var myprefix=${MYPREFIX} \
   -auto-approve \
   -destroy
 ```
